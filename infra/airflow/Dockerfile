@@ -1,0 +1,4 @@
+FROM apache/airflow:2.9.1-python3.11
+
+# Устанавливаем провайдер для работы с Docker
+RUN pip install --no-cache-dir apache-airflow-providers-docker==3.10.0
