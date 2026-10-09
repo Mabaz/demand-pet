@@ -1,0 +1,32 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+
+# Python
+.pytest_cache/
+
+# Секреты
+.env
+
+# Артефакты моделей
+models/*
+!models/.gitkeep
+
+# Данные
+data/*
+!data/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
